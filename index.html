@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css" />
     <title>Disney Plus</title>
 </head>
+
 <body>
     <div class="background-fixed"></div>
     <div class="wrapper">
-
-        <header class="header">
+        <header class="header" data-header>
             <div class="logo">
-                <a class="logo__link" href=""></a>
+                <a class="logo__link" href="/"></a>
             </div>
             <nav class="header__navigation">
                 <ul class="nav-menu">
@@ -78,10 +80,9 @@
                         </ul>
                     </li>
                 </ul>
-                
-                <div class="user-menu">
+                <div class="user-menu" data-usermenu>
                     <div class="user-menu__background show-hover"></div>
-                    <div class="user-menu__current-profile">
+                    <div class="user-menu__current-profile" data-open-usermenu>
                         <div class="user-profile user-profile--reverse">
                             <img class="user-profile__avatar" src="./assets/imgs/avatar.png" />
                             <span class="user-profile__title">Fabrício</span>
@@ -131,10 +132,10 @@
                         </li>
                     </ul>
                 </div>
-
             </nav>
         </header>
-
     </div>
+    <script type="module" src="./assets/js/main.js"></script>
 </body>
+
 </html>
