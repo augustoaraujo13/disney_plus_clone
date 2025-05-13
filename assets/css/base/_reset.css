@@ -1,6 +1,6 @@
 *,
-* ::after,
-* ::before {
+*::after,
+*::before {
     margin: 0;
     padding: 0;
     border: none;
@@ -12,5 +12,5 @@ a {
 }
 
 ul {
-    list-style: nome;
+    list-style: none;
 }
