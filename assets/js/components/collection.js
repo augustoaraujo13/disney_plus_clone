@@ -1,4 +1,3 @@
-
 const Collection = (props) => {
     return `
         <div class="collection" data-carousel="collection" data-id="${props.id}">
